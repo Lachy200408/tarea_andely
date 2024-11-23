@@ -1,0 +1,187 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ejercicio práctico de HTML</title>
+
+	<!-- Insertando la fuente Roboto desde Google Fonts  -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+		rel="stylesheet">
+
+	<!-- Insertar los estilos -->
+	<!-- Lo haremos próximamente, después de la conferencia sobre CSS -->
+	<link rel="stylesheet" href="./css/mis_estilos.css">
+</head>
+
+<body>
+	<header>
+		<nav>
+			<!-- Insertar el logo del sitio -->
+			<a href=""><img src="./imgs/logo.png" alt="logo"></a>
+			<!-- Barra de navegación -->
+			<ul>
+				<li>
+					<a href="index.html" class="selected">Home</a>
+				</li>
+				<li>
+					<a href="">Biblioteca</a>
+				</li>
+				<li>
+					<a href="">Calendario</a>
+				</li>
+				<li>
+					<a href="">Correspondencia y encuesta</a>
+				</li>
+				<!-- 	Adicionar los elementos  del menú "Calendario" y "Correspondencia y encuesta" -->
+		</nav>
+	</header>
+	<section> <!-- Sección del banner -->
+
+		<!-- La imagen del banner la insertaremos como imagen de fondo con CSS  -->
+
+		<!-- el contenido aquí -->
+		<div> <!-- botón secciones-->
+			<img src="./imgs/mas.png" alt="mas">
+			<p>Secciones</p>
+		</div> <!-- fin del botón secciones -->
+		<div> <!-- texto e imagen de la noticia principal-->
+			<div>
+				<h1>Redes vs amor</h1>
+				<p>por Ernesto Almeida</p>
+			</div>
+			<!-- Inserte la imagen de la noticia principal -->
+			<img src="./imgs/noticia_princial.jpg" alt="noticia principal" width="400px" height="500px">
+		</div>
+	</section> <!-- fin banner -->
+	<main>
+		<section> <!-- noticias recientes -->
+
+			<!-- El título de la sección  y la línea -->
+			<div>
+				<h2>Noticias recientes
+				</h2>
+				<!-- Defina el título de la sección Noticias recientes -->
+				<div> <!-- la línea la insertaremos usando css --></div>
+			</div>
+
+			<div> <!-- bloque de las subsecciones -->
+				<article id="noticia1"> <!-- recomendación del ejercicio: utilizar la etiqueta article -->
+					<!-- Inserte la imagen de la Noticia 1 -->
+					<img src="./imgs/noticia1.jpg" alt="noticia1" />
+					<div> <!-- textos de la subsección -->
+						<!-- Defina la jerarquía de los textos h1, h2, ... p -->
+						<div>
+							<h6><a href="./fotorreportaje.html">Fotorreportaje</a></h6>
+							<h4>Cuidados oportunos</h4>
+						</div>
+						<div>
+							<p>Cuidar del medio ambiente sigue siendo una prioritaria y de vital importancia para la juventud cubana
+								específicamente porque se viven tiempos convulsos donde la ...</p>
+							<div> <!-- botón ver más -->
+								<a href="">Ver más</a>
+							</div>
+						</div>
+					</div>
+				</article>
+
+				<!-- Complete -->
+
+				<article id="noticia2"> <!-- Noticia 2 -->
+					<img src="./imgs/noticia2.jpg" alt="noticia2">
+					<div>
+						<div>
+							<h6>Así somos</h6>
+							<h4>Zumo y alimento vital</h4>
+						</div>
+						<div>
+							<p>El zumo de naranja es un alimento fundamental que permite hidratar tu cuerpo, previene la anemia y lo
+								más
+								importante fortalece tu sistema inmunol ...</p>
+							<div> <!-- botón ver más -->
+								<a href="">Ver más</a>
+							</div>
+						</div>
+					</div>
+				</article>
+
+				<article id="noticia3"> <!-- Noticia 3 -->
+					<img src="./imgs/noticia3.jpg" alt="noticia3">
+					<div>
+						<div>
+							<h6>Editorial</h6>
+							<h4>Un reencuentro con la obra de Fina García</h4>
+						</div>
+						<div>
+							<p>Fina García Marruz, una de las voces más singulares de la poesía y la <strong>literatura
+									cubana</strong>. Su obra, aunque
+								menos conocida que la de algunos ...</p>
+							<div> <!-- botón ver más -->
+								<a href="">Ver más</a>
+							</div>
+						</div>
+					</div>
+				</article>
+
+			</div> <!-- fin del bloque de las subsecciones -->
+
+		</section><!-- fin noticias recientes -->
+
+	</main>
+	<footer>
+		<!-- el contenido aquí -->
+		<!-- Será colocado en cuatro bloques de contenido, para lo cual puede utilizar la etiqueta div o section -->
+		<div> <!-- última edición -->
+			<h4>Última edición</h4>
+			<img src="./imgs/portada.jpg" alt="portada">
+
+
+			<p><strong>Número 407 (julio y agosto)</strong><br>16/07/2024</p>
+		</div>
+		<!-- Complete -->
+		<div> <!-- dirección -->
+
+			<h4>Dirección:</h4>
+			<p>Somos Jóvenes <br>Prado 553 esquina a Teniente Rey, La Habana Vieja, CP. 10 200, La Habana, Cuba.</p>
+		</div>
+
+		<!-- Contáctenos -->
+		<div>
+			<h4>Contáctenos por:</h4>
+			<p>+53 56473578</p>
+			<p>+53 54171346</p>
+			<a href="mailto:info@somosjovenes.com">info@somosjovenes.com</a>
+		</div>
+
+		<!-- Redes sociales -->
+		<div>
+			<h4>Redes sociales:</h4>
+			<div>
+				<img src="./imgs/twitter.png" alt="twitter">
+				<a href="">Somos jóvenes</a>
+			</div>
+			<div>
+				<img src="./imgs/youtube.png" alt="youtube">
+				<a href="">Somos jóvenes</a>
+			</div>
+			<div>
+				<img src="./imgs/facebook.png" alt="facebook">
+				<a href="">Somos jóvenes</a>
+			</div>
+			<div>
+				<img src="./imgs/telegram.png" alt="telegram">
+				<a href="">Somos jóvenes</a>
+			</div>
+
+		</div>
+
+		<!-- Los iconos de las redes sociales serán también insertados con Font Awesome... próximas clases -->
+
+	</footer>
+</body>
+
+</html>
